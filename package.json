@@ -1,0 +1,28 @@
+{
+  "name": "rest",
+  "version": "1.0.0",
+  "description": "rest api with mongo db, node js and express",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akhilsivdn/API.git"
+  },
+  "author": "AKhil Sivanandan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akhilsivdn/API/issues"
+  },
+  "homepage": "https://github.com/akhilsivdn/API#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.10",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.3"
+  }
+}
